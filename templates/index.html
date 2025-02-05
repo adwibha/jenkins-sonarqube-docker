@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internet Speed Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            padding: 50px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .speed-result {
+            font-size: 20px;
+            margin-top: 20px;
+        }
+
+        .speed-result p {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Internet Speed Test</h1>
+
+    <div class="speed-result">
+        <p><strong>Download Speed:</strong> {{ download_speed }} Mbps</p>
+        <p><strong>Upload Speed:</strong> {{ upload_speed }} Mbps</p>
+        <p><strong>Ping:</strong> {{ ping }} ms</p>
+    </div>
+
+</body>
+
+</html>
